@@ -1,0 +1,58 @@
+{
+  "config": {
+    "bootstrap_resamples": 10000,
+    "correctness_bases": 300,
+    "correctness_seed": 1,
+    "correctness_strategies": [
+      "priority+specificity+recency",
+      "specificity",
+      "unordered"
+    ],
+    "permutation_resamples": 10000,
+    "quality_bases": 80,
+    "quality_random_trials": 24,
+    "quality_seed": 10000
+  },
+  "correctness": {
+    "priority+specificity+recency": {
+      "agree": 300,
+      "agreement_rate": 1.0,
+      "bases": 300,
+      "mismatch_seeds": []
+    },
+    "specificity": {
+      "agree": 300,
+      "agreement_rate": 1.0,
+      "bases": 300,
+      "mismatch_seeds": []
+    },
+    "unordered": {
+      "agree": 300,
+      "agreement_rate": 1.0,
+      "bases": 300,
+      "mismatch_seeds": []
+    }
+  },
+  "quality": {
+    "bases": 80,
+    "chain_len_mean": 4.6,
+    "ordered_beats_random_rate": 1.0,
+    "ordered_beats_unordered_rate": 1.0,
+    "ordered_firings_mean": 5.475,
+    "random_firings_mean": 18.078125,
+    "random_trials_per_base": 24,
+    "reduction_vs_random_ci95": [
+      11.996875,
+      13.200520833333334
+    ],
+    "reduction_vs_random_mean": 12.603125,
+    "reduction_vs_random_pvalue": 9.999000099990002e-05,
+    "reduction_vs_unordered_ci95": [
+      9.55,
+      11.05
+    ],
+    "reduction_vs_unordered_mean": 10.3125,
+    "reduction_vs_unordered_pvalue": 9.999000099990002e-05,
+    "unordered_firings_mean": 15.7875
+  }
+}

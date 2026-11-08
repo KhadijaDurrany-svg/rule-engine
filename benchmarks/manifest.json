@@ -1,0 +1,22 @@
+{
+  "config": {
+    "bootstrap_resamples": 10000,
+    "correctness_bases": 300,
+    "correctness_seed": 1,
+    "correctness_strategies": [
+      "priority+specificity+recency",
+      "specificity",
+      "unordered"
+    ],
+    "permutation_resamples": 10000,
+    "quality_bases": 80,
+    "quality_random_trials": 24,
+    "quality_seed": 10000
+  },
+  "dataset_checksum": "9d422ed91dc86c4a3d947ce47f5f1f454a9455572087dcbc3aa427cf6c8b1095",
+  "git_sha": "n/a",
+  "platform": "Linux-6.18.44-fc-v242-x86_64-with-glibc2.39",
+  "python": "3.13.18",
+  "tool": "rulekiln",
+  "version": "0.1.0"
+}
